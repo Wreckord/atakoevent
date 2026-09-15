@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "C:\\Users\\georg\\Documents\\improvatines\\atakoevent_vote\\build\\web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
